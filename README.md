@@ -1,3 +1,12 @@
+# 🧾 Suíte de Testes - Filtro "Ativos (Active)"
+
+Este repositório faz parte do meu aprendizado em QA, onde documento a criação de suítes de teste usando critérios de aceite escritos em Gherkin. O objetivo aqui é desenvolver uma visão crítica para validar funcionalidades com clareza e organização, preparando um material que facilite análise e automação.
+
+O foco é aprimorar a escrita técnica, simular cenários reais de teste e mostrar a importância de uma suíte de testes bem construída para garantir qualidade.
+
+
+ **Site utilizado nos testes:** [TodoMVC - React](https://todomvc.com/examples/react/dist/) 
+
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes</strong></summary>
 
