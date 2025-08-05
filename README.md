@@ -124,8 +124,8 @@ Filtro "Ativos (Active)" na lista de tarefas do TodoMVC, que deve exibir apenas 
 ---
 
 ## 📝 User Story  
-Eu, como usuária da aplicação
-Gostaria de visualizar apenas os itens pendentes da minha lista
+Eu, como usuária da aplicação  
+Gostaria de visualizar apenas os itens pendentes da minha lista  
 Porque assim consigo focar nas tarefas que ainda preciso concluir
 
 ---
