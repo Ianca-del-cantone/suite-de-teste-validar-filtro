@@ -100,7 +100,42 @@ Uma suíte de testes reúne casos que validam o comportamento esperado de uma fu
 - Manter consistência na validação de funcionalidades
 - Apoiar entregas com mais confiança
 
+---
 
+## ✍️ Linguagem Gherkin
+A linguagem Gherkin é usada para escrever casos de teste de forma simples e legível, mesmo por pessoas não técnicas.
+Ela segue o formato:
+
+```
+Cenário: [descrição do cenário]  
+Dado que [estado inicial]  
+Quando [ação realizada]  
+Então [resultado esperado]  
+```
+
+Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders, pois descreve o comportamento do sistema pela ótica do usuário.
+
+---
+
+## 🧩 Funcionalidade testada
+
+Filtro "Ativos (Active)" na lista de tarefas do TodoMVC, que deve exibir apenas os itens pendentes, ocultando os concluídos, com o contador corretamente atualizado.
+
+---
+
+## 📝 User Story  
+Eu, como usuária da aplicação
+Gostaria de visualizar apenas os itens pendentes da minha lista
+Porque assim consigo focar nas tarefas que ainda preciso concluir
+
+---
+
+## 📌 Regras de Negócio
+
+- **RN1**: O filtro "Active" exibe apenas os itens pendentes
+- **RN2**: Itens pendentes aparecem com texto padrão e checkbox desmarcado
+- **RN3**: Itens concluídos devem ser ocultados nessa visualização
+- **RN4**: O contador reflete corretamente a quantidade de itens pendentes
 
 
 
