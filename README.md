@@ -120,14 +120,12 @@ Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders,
 ## 🧩 Funcionalidade testada
 
 Filtro "Ativos (Active)" na lista de tarefas do TodoMVC, que deve exibir apenas os itens pendentes, ocultando os concluídos, com o contador corretamente atualizado.
-
 ---
 
 ## 📝 User Story  
 Eu, como usuária da aplicação
 Gostaria de visualizar apenas os itens pendentes da minha lista
 Porque assim consigo focar nas tarefas que ainda preciso concluir
-
 ---
 
 ## 📌 Regras de Negócio
@@ -136,7 +134,13 @@ Porque assim consigo focar nas tarefas que ainda preciso concluir
 - **RN2**: Itens pendentes aparecem com texto padrão e checkbox desmarcado
 - **RN3**: Itens concluídos devem ser ocultados nessa visualização
 - **RN4**: O contador reflete corretamente a quantidade de itens pendentes
+---
 
+## ✅ Critérios de Aceite (Gherkin)  
+**Cenário:** Visualizar apenas os itens pendentes com o filtro "Active"<br>
+**Dado que** existam itens pendentes e concluídos na lista<br>
+**Quando** seleciono o filtro "Active"<br>
+**Então** somente os itens pendentes devem ser exibidos na lista
 
 
 
