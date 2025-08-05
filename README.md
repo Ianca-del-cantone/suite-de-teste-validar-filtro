@@ -120,12 +120,14 @@ Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders,
 ## 🧩 Funcionalidade testada
 
 Filtro "Ativos (Active)" na lista de tarefas do TodoMVC, que deve exibir apenas os itens pendentes, ocultando os concluídos, com o contador corretamente atualizado.
+
 ---
 
 ## 📝 User Story  
 Eu, como usuária da aplicação
 Gostaria de visualizar apenas os itens pendentes da minha lista
 Porque assim consigo focar nas tarefas que ainda preciso concluir
+
 ---
 
 ## 📌 Regras de Negócio
@@ -134,6 +136,7 @@ Porque assim consigo focar nas tarefas que ainda preciso concluir
 - **RN2**: Itens pendentes aparecem com texto padrão e checkbox desmarcado
 - **RN3**: Itens concluídos devem ser ocultados nessa visualização
 - **RN4**: O contador reflete corretamente a quantidade de itens pendentes
+
 ---
 
 ## ✅ Critérios de Aceite (Gherkin)  
@@ -141,6 +144,39 @@ Porque assim consigo focar nas tarefas que ainda preciso concluir
 **Dado que** existam itens pendentes e concluídos na lista<br>
 **Quando** seleciono o filtro "Active"<br>
 **Então** somente os itens pendentes devem ser exibidos na lista
+
+---
+
+## 🧠 Diferença entre Prioridade e Severidade
+
+| Conceito       | O que significa                                                        | Quem define          |
+| -------------- | ---------------------------------------------------------------------- | -------------------- |
+| **Prioridade** | Define o quão rápido o teste deve ser executado ou o defeito resolvido | Time de produto / QA |
+| **Severidade** | Mede o impacto técnico do problema no sistema                          | Time de QA           |
+
+---
+
+## 📝 Sobre os Casos de Teste  
+Todos os testes foram escritos com foco em:
+
+- Cobrir os comportamentos principais do filtro 
+- Trabalhar com critérios claros e mensuráveis  
+- Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
+
+---
+
+## 🎯 Objetivo do Projeto  
+Praticar a criação de suítes de testes a partir de critérios bem definidos.
+
+- Validar o comportamento do filtro "Todos (All)" na exibição dos itens
+- Reforçar o uso de Gherkin como ponte entre negócio e testes  
+- Desenvolver habilidades práticas essenciais para a atuação em QA
+
+---
+
+## 📌 Observação
+Este projeto não contém código-fonte, pois o foco está na documentação de testes e raciocínio analítico em QA.
+É um exercício essencial para fortalecer a base teórica e desenvolver uma visão crítica sobre o que deve ser testado em uma aplicação.
 
 
 
